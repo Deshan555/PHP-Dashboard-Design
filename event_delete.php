@@ -27,11 +27,11 @@ include('includes/navbar.php');
           <label>Password</label>
           <input type="password" name="delete_password" class="form-control" placeholder="Enter Current Password">
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label>Confirm Password</label>
           <input type="password" name="delete_confirmpassword" class="form-control"
             placeholder="Retype Current Password">
-        </div>
+        </div> -->
     </form>
 
     <a href="events.php" class="btn btn-primary"> Cancel </a>

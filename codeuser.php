@@ -88,7 +88,7 @@ if(isset($_POST['deletebtn']))
     $uid =$_POST['new_user_id'];
     $id = $_POST['new_admin_id'];
     $password = md5($_POST['delete_password']);
-    $cpassword = md5($_POST['delete_confirmpassword']);
+    $cpassword = $_SESSION['password'];
     
 
 

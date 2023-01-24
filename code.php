@@ -35,7 +35,7 @@ if (isset($_POST['registerbtn'])) {
 if (isset($_POST['updatebtn'])) {
     $id = $_POST['new_admin_id'];
     $password = md5($_POST['edit_password']);
-    $cpassword = md5($_POST['edit_confirmpassword']);
+    $cpassword = $_SESSION['password'];
     $npassword = md5($_POST['edit_newpassword']);
 
 
@@ -65,7 +65,7 @@ if (isset($_POST['updatebtn'])) {
 if (isset($_POST['deletebtn'])) {
     $id = $_POST['new_admin_id'];
     $password = md5($_POST['delete_password']);
-    $cpassword = md5($_POST['delete_confirmpassword']);
+    $cpassword = $_SESSION['password'];
 
 
 

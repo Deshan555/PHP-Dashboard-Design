@@ -88,7 +88,7 @@ if(isset($_POST['deletebtn']))
     $cid =$_POST['new_club_id'];
     $id = $_POST['new_admin_id'];
     $password = md5($_POST['delete_password']);
-    $cpassword = md5($_POST['delete_confirmpassword']);
+    $cpassword = $_SESSION['password'];
     
 
 

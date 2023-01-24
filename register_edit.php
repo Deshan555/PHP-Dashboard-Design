@@ -23,10 +23,10 @@ include('includes/navbar.php');
           <label>Current Password</label>
           <input type="password" name="edit_password" class="form-control" placeholder="Enter Current Password">
         </div>
-        <div class="form-group">
+        <!-- <div class="form-group">
           <label>Confirm Password</label>
           <input type="password" name="edit_confirmpassword" class="form-control" placeholder="Retype Current Password">
-        </div>
+        </div> -->
         <div class="form-group">
           <label>New Password</label>
           <input type="password" name="edit_newpassword" class="form-control" placeholder="Enter New Password">

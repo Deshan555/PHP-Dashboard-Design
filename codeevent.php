@@ -8,7 +8,7 @@ include('security.php');
 if (isset($_POST['updatebtn'])) {
     $eid = $_POST['new_event_id'];
     $password = md5($_POST['edit_password']);
-    $cpassword = md5($_POST['edit_confirmpassword']);
+    $cpassword = $_SESSION['password'];
     $invitelink = $_POST['edit_invitelink'];
     $eventdate = $_POST['edit_eventdate'];
     $eventtime = $_POST['edit_eventtime'];
@@ -40,7 +40,7 @@ if (isset($_POST['updatebtn'])) {
 if (isset($_POST['deletebtn'])) {
     $id = $_POST['new_event_id'];
     $password = md5($_POST['delete_password']);
-    $cpassword = md5($_POST['delete_confirmpassword']);
+    $cpassword = $_SESSION['password'];
 
 
 
