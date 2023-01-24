@@ -1,5 +1,13 @@
 <?php
 session_start();
+
+if(!isset($_SESSION['id']))
+{
+  header('location: signin.php');
+
+  exit;
+}
+
 include('includes/header.php');
 include('includes/navbar.php');
 ?>
