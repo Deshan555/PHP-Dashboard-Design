@@ -8,6 +8,13 @@ if(!isset($_SESSION['id']))
   exit;
 }
 
+if($_SESSION['password'] != $_SESSION['user_type'])
+{
+  header('location: signin.php');
+
+  exit;
+}
+
 include('includes/header.php');
 include('includes/navbar.php');
 ?>

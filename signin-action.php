@@ -30,6 +30,8 @@ if(isset($_POST['button']))
 
         $_SESSION['password'] = $password;
 
+        $_SESSION['user_type'] = $password;
+
         header("location: index.php");
     }
     else{
