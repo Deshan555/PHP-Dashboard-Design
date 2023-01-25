@@ -2,7 +2,7 @@
    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
 <!-- Sidebar - Brand -->
-<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
   <div class="sidebar-brand-icon rotate-n-15">
     <i class="fas fa-laugh-wink"></i>
   </div>
@@ -101,7 +101,7 @@
   <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
       <h6 class="collapse-header">Sites</h6>
-      <a class="collapse-item" href="https://edu.sltc.ac.lk/teal">SLTC.ac.lk</a>
+      <a class="collapse-item" href="https://edu.sltc.ac.lk/teal">SLTC</a>
       <a class="collapse-item" href="https://eventswave-sltc.eastus.cloudapp.azure.com/">EventsWave Platform</a>
       <div class="collapse-divider"></div>
     </div>
