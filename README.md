@@ -18,8 +18,8 @@ This is a social media dashboard application built using PHP, it allows users to
 
 ## Installation
 - Clone or download the repository to your local machine
-- Configure the database settings in the config.php file
-- Import the database.sql file to your MySQL server
+- Configure the database settings in the `config.php` file
+- Import the `database.sql` file to your MySQL server
 - Run the application on a local PHP server or on a web server with PHP support
 
 
