@@ -33,7 +33,7 @@ if (isset($_POST['registerbtn'])) {
 }
 
 if (isset($_POST['updatebtn'])) {
-    $id = $_POST['new_admin_id'];
+    $id = $_POST['admin_id'];
     $password = md5($_POST['edit_password']);
     $cpassword = $_SESSION['password'];
     $npassword = md5($_POST['edit_newpassword']);
@@ -41,7 +41,10 @@ if (isset($_POST['updatebtn'])) {
 
     if ($password === $cpassword) {
 
-        $query = "UPDATE admin SET Password = '$npassword' WHERE Admin_ID='$id'";
+        $query = "UPDATE admin SET Password = '$npassword' WHERE Admin_ID= $id ";
+
+        echo $query;
+
         $query_run = mysqli_query($connection, $query);
 
         if ($query_run) {
@@ -91,8 +94,4 @@ if (isset($_POST['deletebtn'])) {
     }
 
 }
-
-
-
-
 ?>
