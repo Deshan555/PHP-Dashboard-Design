@@ -20,7 +20,7 @@ include('includes/navbar.php');
           <input type="text" name="admin_id" class="form-control" placeholder="Enter Admin ID">
         </div>
         <div class="form-group">
-          <label>Current Password</label>
+          <label>Current Admin Password</label>
           <input type="password" name="edit_password" class="form-control" placeholder="Enter Current Password">
         </div>
         <!-- <div class="form-group">
